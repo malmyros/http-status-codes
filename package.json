@@ -1,0 +1,24 @@
+{
+  "name": "http-status-codes",
+  "version": "1.0.0",
+  "description": "A List of Http status codes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malmyros/http-status-codes"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "code"
+  ],
+  "author": {
+    "name": "Michail Almyros",
+    "email": "m.almyros@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malmyros/http-status-codes/issues"
+  },
+  "homepage": "https://github.com/malmyros/http-status-codes"
+}
