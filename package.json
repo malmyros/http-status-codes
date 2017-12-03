@@ -1,11 +1,11 @@
 {
-  "name": "http-status-codes",
+  "name": "http-status-codes-js",
   "version": "1.0.0",
   "description": "A List of Http status codes",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/malmyros/http-status-codes"
+    "url": "https://github.com/malmyros/http-status-codes-js"
   },
   "keywords": [
     "http",
@@ -18,7 +18,7 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/malmyros/http-status-codes/issues"
+    "url": "https://github.com/malmyros/http-status-codes-js/issues"
   },
-  "homepage": "https://github.com/malmyros/http-status-codes"
+  "homepage": "https://github.com/malmyros/http-status-codes-js"
 }
