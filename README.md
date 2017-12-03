@@ -10,10 +10,28 @@ npm install http-status-codes
 
 add the `--save` option to add it to the `dependencies` in your `package.json` as well
 
-## Hot to use
+## How to use
 
-The module will export an object that contains 5 objects that describe
-the http status codes where you can find key value pairs of the status codes.
+Import the module
+
+```ecmascript 6
+import httpStatusCodes from 'http-status-codes-js';
+```
+
+Find the status code you are interested in among `INFORMATION`
+, `SUCCESS`, `REDIRECTION`, `CLIENT_ERRORS` and `SERVER_ERRORS` and use
+it in your request.
+
+```ecmascript 6
+router.get('/', function(req, res, next) {
+  res.status(httpStatusCodes.SUCCESS.OK);
+  
+  // Do something
+});
+
+```
+
+# About
 
 The module was created as simple way of avoiding using `magic numbers`
 in the source code to represent the `http statuses` and improve
