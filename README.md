@@ -5,7 +5,7 @@
 Just run
 
 ```shell
-npm install http-status-codes
+npm install http-status-codes-js
 ```
 
 add the `--save` option to add it to the `dependencies` in your `package.json` as well
